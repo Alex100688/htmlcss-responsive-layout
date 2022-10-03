@@ -1,12 +1,19 @@
 /* @media-screen( da 0 a 769px) */
 @media screen and (min-width:769px) {
-    
+    .menu{
+        display: none;
+    }
+    .header-nav{
+        display: block;
+    }
 }
 /* /media-screen( da 0 a 769px) */
 
 /* media-screen( da 0 a 993px) */
 @media screen and (min-width:993px) {
-    
+    /* rules-header */
+   
+    /* /rules-header */
 }
     
 

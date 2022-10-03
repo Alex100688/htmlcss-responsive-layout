@@ -5,9 +5,10 @@
     --third-color:#5a6e7f;
 }
 :root{
-    --sp:0 .625rem;
-    --mp:0 .9375rem;
-    --gp: 0 1.25rem;
+    --splr:0 .625rem;
+    --mplr:0 .9375rem;
+    --gplr: 0 1.25rem;
+    --gptb:20px 0;
     --all-p: .625rem .625rem
 }
 /* Variables-layout */
