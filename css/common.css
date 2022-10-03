@@ -1,0 +1,28 @@
+/* general-rules */
+.container{
+    max-width: 19.25rem;
+}
+
+/* general-rules */
+
+/* rules-flex */
+.display-flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    margin: 0 .625rem;
+}
+
+.space-beetween{
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+/* rules-flex */

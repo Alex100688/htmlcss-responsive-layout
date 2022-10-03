@@ -1,0 +1,13 @@
+/* Variables-layout */
+:root{
+    --first-color:#0084fd;
+    --second-color:#b5ddff;
+    --third-color:#5a6e7f;
+}
+:root{
+    --sp:0 .625rem;
+    --mp:0 .9375rem;
+    --gp: 0 1.25rem;
+    --all-p: .625rem .625rem
+}
+/* Variables-layout */
