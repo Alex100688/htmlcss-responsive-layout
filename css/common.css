@@ -22,14 +22,21 @@ section{
 /* rules img */
 img{
     width: 100%;
-    display: block;
-   
-       
+    display: block;       
+}
+
+.padding-img{
+    padding: 3rem 1.20rem 3rem 1.20rem;
 }
 /* rules img */
 
 
-    
+/* general-text */
+.general-text{
+    text-align: center;
+    line-height: 1.375rem;
+}
+/* /general-text */
 
 
 /* general-rules */
@@ -60,7 +67,7 @@ img{
     align-items: center;
 }
 
-.flex-end{
+.align-flex-end{
     align-items: flex-end;
 }
 /* rules-flex */

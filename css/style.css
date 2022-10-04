@@ -1,9 +1,10 @@
 @import url(variables.css);
 @import url(common.css);
-@import url(bottom.css);
+@import url(button.css);
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@import url(responsive.css);
 
 
 /* RESET */

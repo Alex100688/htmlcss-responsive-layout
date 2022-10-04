@@ -1,0 +1,37 @@
+/* Responsive */
+/* media-screen (da 0 a 425px) */
+@media screen and (min-width:426px) {
+    .width .padding-box{
+        width:calc(100% / 3);
+    }
+    .width .padding-box:first-child{
+        width: calc(100% / 3 * 2);
+    }
+    
+}
+/* /media-screen (da 0 a 425px) */
+
+/* @media-screen( da 0 a 768px) */
+@media screen and (min-width:768px) {
+    .menu{
+        display: none;
+    }
+    .header-nav{
+        display: block;
+    }
+}
+/* /media-screen( da 0 a 768px) */
+
+
+/* media-screen (da 0 a 992px) */
+@media screen and (min-width:992px) {
+    .second-section .strategic-box{
+        width: 50%;
+    }
+
+
+}
+/*/ media-screen (da 0 a 992px) */
+
+
+/* /Responsive */

@@ -9,68 +9,66 @@
     margin: 1.25rem 0;   
 }
 
-.color-section{
+.second-section{
     background-color: var(--third-color);
 }
 
-.planning{
-    padding-top: 2.5rem; 
+.second-section .strategic-box{
+    width: 100%;
+    margin: 1.25rem 0;  
+}
+.strategic-box{
+    padding-left: .625rem;
+    padding-right: .625rem;
 }
 
 .title{
-    text-align: center;
-    padding: 2.5rem 0;
-}
-
-.text{
-    padding-bottom: 2.5rem;
-}
-
-.title, .text{
     color: white;
-}
-
-.back-ground{
-    background-color: white;
-    padding: 1.875rem 0;
-    border-radius: 1.25rem;
     
 }
-.padding-box-card-2{
-    padding: 1.875rem;
+
+.title-planning{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2.8rem 0;
+   
+}
+
+.strategic-paragraph{
+    
+    line-height: 2.1875rem;
+    padding: 1.875rem .9375rem 1.875rem .9375rem;
 }
 
 
-.padding-box-color{
-    background-color: var(--third-color);
-    padding-bottom: 4.1rem;
+.box-white{
+    background-color: white;
+    border-radius: 1.875rem;
 }
 
-.description-img{
-    text-align: center;
-    padding-bottom: 1.25rem;   
-}
 
-.description-title{
-    font-style: italic;
-    line-height: 1.565rem;
+
+
+.strategic-title{
     padding: 1.25rem 0;
 }
-.general-bottom.arrow-bottom{
+
+
+.planning2-img{
+    padding-top: 1.25rem; 
+    
+}
+
+.padding-button{
+    margin-top: 1.25rem;
+    padding-bottom: 2.1875rem;
+}
+
+.general-button.arrow-button{
     border-radius: 50%;
     border: none;
     background-color: var(--third-color);
-
-}
-
-/* media-screen (da 0 a 425px) */
-@media screen and (min-width:426px) {
-    .width .padding-box{
-        width:calc(100% / 3);
-    }
-    .width .padding-box:first-child{
-        width: calc(100% / 3 * 2);
-    }
     
 }
-/* /media-screen (da 0 a 425px) */
+
+
