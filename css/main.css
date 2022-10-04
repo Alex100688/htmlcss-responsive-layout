@@ -1,0 +1,9 @@
+ .no-box{
+    background-color: var(--second-color);
+    height: 6.25rem;
+ }
+ 
+ .width .padding-box{
+    width: 100%;
+    margin: 1.25rem 0;   
+}
