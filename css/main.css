@@ -1,9 +1,21 @@
  .no-box{
     background-color: var(--second-color);
-    height: 6.25rem;
+    height: 100px;
  }
  
  .width .padding-box{
     width: 100%;
     margin: 1.25rem 0;   
 }
+
+/* media-screen (da 0 a 425px) */
+@media screen and (min-width:426px) {
+    .width .padding-box{
+        width:calc(80% / 3);
+    }
+    .width .padding-box:first-child{
+        width: calc(80% / 3 * 2);
+    }
+    
+}
+/* /media-screen (da 0 a 425px) */

@@ -1,5 +1,5 @@
 header{background-color: var(--first-color);
-    padding: var( --gptb);
+    padding: 20px 0;
     color: white;
 }
 
@@ -12,6 +12,16 @@ header{background-color: var(--first-color);
 }
 li > a{
     text-decoration: none;
-    color: white;
-    
+    color: white;   
 }
+
+/* @media-screen( da 0 a 768px) */
+@media screen and (min-width:768px) {
+    .menu{
+        display: none;
+    }
+    .header-nav{
+        display: block;
+    }
+}
+/* /media-screen( da 0 a 768px) */
